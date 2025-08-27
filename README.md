@@ -34,25 +34,25 @@ HTML-Complete-Forms-and-Tables-Project/
 
 ---
 
-## 📸 Screenshots
+## 📸 screenshots
 
-### 🔹 Screenshot 1
-![Screenshot 1](screenshots/1.png)
+### 🔹 screenshot 1
+![screenshot 1](screenshots/1.png)
 
-### 🔹 Screenshot 2
-![Screenshot 2](screenshots/2.png)
+### 🔹 screenshot 2
+![screenshot 2](screenshots/2.png)
 
 ### 🔹 Screenshot 3
-![Screenshot 3](screenshots/3.png)
+![screenshot 3](screenshots/3.png)
 
-### 🔹 Screenshot 4
-![Screenshot 4](screenshots/4.png)
+### 🔹 screenshot 4
+![screenshot 4](screenshots/4.png)
 
-### 🔹 Screenshot 5
-![Screenshot 5](screenshots/5.png)
+### 🔹 screenshot 5
+![screenshot 5](screenshots/5.png)
 
-### 🔹 Screenshot 6
-![Screenshot 6](screenshots/6.png)
+### 🔹 screenshot 6
+![screenshot 6](screenshots/6.png)
 
 ---
 
