@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Level-5-Project
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>1:-Order-List</h1>
+    <ol>
+        <li>Project 1: Build a Personal Portfolio Website</li>
+        <li>Project 2: Create a To-Do List Application</li>
+        <li>Project 3: Develop a Simple Blog Platform</li>
+        <li>Project 4: Design a Weather Forecast App</li>
+        <li>Project 5: Implement a Chat Application</li>
+    </ol>
+    <hr>
+    <h1>2:-Unordered-List</h1>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+    </ul>
+    <hr>
+    <h1>Multi-Ordered-List</h1>
+    <ol >
+        <li>Fruits
+            <ol type = "I">
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Orange</li>
+            </ol>
+        </li>
+        <li>Vegetables
+            <ol Type = "a">
+                <li>Carrot</li>
+                <li>Broccoli</li>
+                <li>Spinach</li>
+            </ol>
+        </li>
+        <li>Dairy Products
+            <ol Type = "i">
+                <li>Milk</li>
+                <li>Cheese</li>
+                <li>Yogurt</li>
+            </ol>
+        </li>
+    </ol>
+    <hr>
+    <h1> Table-Forming</h1>
+    <table border="1">
+        <tr>
+            <th> Name </th>
+            <th> Age </th>
+            <th> City </th>
+        </tr>
+        <tr>
+            <td> Alice </td>
+            <td> 30 </td>
+            <td> New York </td>
+        </tr>
+        <tr>
+            <td> Bob </td>
+            <td> 25 </td>
+            <td> Los Angeles </td>
+        </tr>
+        <tr>
+            <td> Charlie </td>
+            <td> 35 </td>
+            <td> Chicago </td>
+        </tr>
+    </table>
+    <hr>
+    <h1>Caption-On-Table</h1>
+    <table border="1">
+        <caption>Employee Details</caption>
+        <tr>
+            <th> Employee ID </th>
+            <th> Name </th>
+            <th> Department </th>
+        </tr>
+        <tr>
+            <td> 101 </td>
+            <td> John Doe </td>
+            <td> Marketing </td>
+        </tr>
+        <tr>
+            <td> 102 </td>
+            <td> Jane Smith </td>
+            <td> Sales </td>
+        </tr>
+        <tr>
+            <td> 103 </td>
+            <td> Mike Johnson </td>
+            <td> IT </td>
+        </tr>
+    </table>
+
+    <hr>
+    <h1>Col-Span-In-Table</h1>
+    <table border="1">
+        <caption>Employee Details</caption>
+        <tr>
+            <th> Employee ID </th>
+            <th> Name </th>
+            <th> Department </th>
+        </tr>
+        <tr>
+            <td> 101 </td>
+            <td> John Doe </td>
+            <td> Marketing </td>
+        </tr>
+        <tr>
+            <td> 102 </td>
+            <td> Jane Smith </td>
+            <td> Sales </td>
+        </tr>
+        <tr>
+            <td> 103 </td>
+            <td> Mike Johnson </td>
+            <td> IT </td>
+        </tr>
+         <tr>
+            <td colspan = "2" > This Employee Is Missing</td>
+        </tr>
+    </table>
+    <hr>
+    <h1> Form-Forming</h1>
+    <form>
+     <h2>Simple-Input-Tag</h2>
+    Name:<input type="text" placeholder = "Enter Name Here" required = "true"><br>
+    Email:<input type="email" placeholder = "Enter Email Here" required = "true"><br>
+    </form>
+
+    <h2>Action-Atribute</h2>
+    <form action = "https://www.example.com/submit" method = "post">
+    Age:<input type="text" placeholder = "Enter Age Here" required = "true"><br>
+    Address:<input type="email" placeholder = "Enter Age Here" required = "true"><br>
+    Submit-Here:<input type = "submit">
+    </form>
+
+    <h2>Name/Value-Property</h2>
+    <form action = "https://www.example.com/submit" method = "post">
+    UserName:<input type="text" required = "true" name ="Name" Value ="Hanzla-Tahir"><br>
+    Email:<input type="email" required = "true" name = "Email" value = "hanzlatahirofficial2004@gmail.com"><br>
+    Pin:<input type="password" required = "true" name ="Password" Value ="123"><br>
+    Submit-Here:<input type = "submit">
+    </form>
+
+    <h2>Lable-Tag</h2>
+    <form action = "https://www.example.com/submit" method = "post">
+    <lable for ="name">Name:</lable>    
+    <input type="text" id="name" required = "true" name ="Name" Value ="Hanzi"><br>
+    <lable for ="email">Email:</lable>
+    <input type="text"  id = "email"required = "true" name = "example" value = "hanzlatahirofficial2004@gmail.com"><br>
+    <lable for = "password">Password:</lable>
+    <input type="password"  id = "password" required = "true" name ="Password" Value ="123"><br>
+    Submit-Here:<input type = "submit">
+    </form>
+    
+    <hr>
+    <h1>Exploring-Types</h1>
+    <h2>Date-Input-Tag</h2>
+    <form>
+        <lable for="date"> Choosen-The-Date-Here:</lable>
+        <input type = "date"  id="date" name = "date" required = "true"><br>
+    </form>
+
+    <h2>File-Input-Tag</h2>
+    <form>
+        <lable for ="file"> Choosen Your File Here</lable>
+        <input type = "file" id = "file" name ="file">
+    </form>
+
+    <h2>Colour-Input-Tag</h2>
+    <form>
+        <lable for ="color"> Choosen Your Colour Here</lable>
+        <input type = "color" id = "color" name ="color">
+    </form>
+
+    <h2>Range-Input-Tag</h2>
+    <form>
+        <lable for ="range"> Set Your Colour Here</lable>
+        <input type = "range" id = "range" name ="range">
+    </form>
+
+    <h2>Button-Input-Tag</h2>
+    <form action = "https://www.example.com/submit" method = "post">
+    <lable for ="name">Name:</lable>    
+    <input type="text" id="name" required = "true" name ="Name" Value ="Hanzi"><br>
+    <lable for ="email">Email:</lable>
+    <input type="text"  id = "email"required = "true" name = "example" value = "hanzlatahirofficial2004@gmail.com"><br>
+    <lable for = "password">Password:</lable>
+    <input type="password"  id = "password" required = "true" name ="Password" Value ="123"><br>
+    Submit-Here:<input type = "submit"><bR>
+    <lable for="button"> B1:</lable>
+    <input type = "button" id = "button" value = "Next">
+    <lable for="button"> B2:</lable>
+    <input type = "button" id = "button" value = "Back">
+    </form>
+
+    <h2>Radio-Input-Tag</h2>
+    <form>
+        <lable for = "male"> Male:</lable>
+        <input type = "radio" name = Gender id = "Male" value = "male">
+         <br>
+        <lable for = "Female"> Female:</lable>
+        <input type = "radio" name = Gender id = "Female" value = "Female">
+        <br>
+        <lable for = "Other"> Other:</lable>
+        <input type = "radio" name = Gender id = "Other" value = "Other">
+    </form>
+
+     <h2>Checkbox-Input-Tag</h2>
+    <form>
+        <lable for = "apple"> Apple:</lable>
+        <input type = "checkbox" name = fruits id = "apple" value = "apple">
+         <br>
+        <lable for = "banana"> Banana:</lable>
+        <input type = "checkbox" name = fruits id = "banana" value = "banana">
+        <br>
+        <lable for = "orange"> Orange:</lable>
+        <input type = "checkbox" name = fruits id = "orange" value = "orange">
+    </form>
+
+    <h2>Select-Input-Tag</h2>
+    <form>
+     <lable for ="car">Choose Your Ride Here</lable>
+     <select name = "car" id = "car">
+        <option value = "volvo">Volvo</option>
+        <option value = "BMW">BMW</option>
+        <option value = "Audi">Audi</option>
+        <option value = "Toyota">Toyota</option>
+        <option value = "Honda">Honda</option>
+        </select>
+        </form>
+
+        <h2>Text-Area-Input-Tag</h2>
+        <textarea rows = "4" cols = "50" placeholder ="Write Here"></textarea>
+        Enter Your Message Here
+        </textarea>
+
+        <hr>
+
+        <h1>Building-IFrame</h1>
+        <h2>Wikipedia</h2>
+        <iframe src="https://www.wikipedia.org/" width="600" height="400" title="Iframe Example">
+        </iframe>
+
+        <h2>Completr Cooding</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rklidcZ-aLU?si=k7WawRWm6btgpXiW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    
+ 
+
+</body>
+</html>
